@@ -83,6 +83,18 @@ namespace Csharp_Shop
         {
             Console.WriteLine(codice + "-" + name);
         }
+        /*METODO CHE STAMPA SOLO IL PREZZO*/
+        public void GetPrezzo()
+        {
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
+            Console.WriteLine("Il prezzo del mio articolo è " + prezzo + "€");
+        }
+        /*METODO CHE STAMPA SOLO L'IVA*/
+        public void GetIva()
+        {
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
+            Console.WriteLine("L'IVA del mio articolo è " + iva + "%" );
+        }
 
 
     }
