@@ -28,7 +28,7 @@
         /*bonus*/
         public string padleft()
         {
-            codice = GetCodice();
+            
             string strvalue = Convert.ToString(codice).PadLeft(8,'0');
             return strvalue;
         }
