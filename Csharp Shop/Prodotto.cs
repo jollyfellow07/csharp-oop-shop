@@ -78,7 +78,11 @@ namespace Csharp_Shop
             return prezzoFinale;
         }
 
-
+        /*METODO CHE STAMPA IN UNA SOLA RIGA CODICE PRODOTTO E NOME*/
+        public void articolo()
+        {
+            Console.WriteLine(codice + "-" + name);
+        }
 
 
     }
