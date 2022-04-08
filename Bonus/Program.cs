@@ -4,7 +4,6 @@ using Bonus;
 
 Prodotto mela = new Prodotto("MELA", "questa mela è rossa", 0.50, 5);
 int codice = mela.GetCodice();
-
 mela.stampa();
 
 Prodotto telefono = new Prodotto("iphone", "Apple iPhone 13 è l’ultima uscita di casa Apple, apparentemente simile al suo predecessore, ma in realtà molto innovativo per display, batteria e fotocamera. ", 1000, 22);
