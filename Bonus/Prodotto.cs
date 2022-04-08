@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Csharp_Shop
+﻿namespace Bonus
 {
     internal class Prodotto
     {
@@ -34,8 +28,8 @@ namespace Csharp_Shop
 
 
 
-        /*METODO: CALCOLA NUMERO RANDOM*/
-        public int numeroRandomCodice()
+            /*METODO: CALCOLA NUMERO RANDOM*/
+            public int numeroRandomCodice()
         {
             Random codiceRandom = new Random();
             return codiceRandom.Next(100000000);
