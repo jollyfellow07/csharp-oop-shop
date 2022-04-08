@@ -35,12 +35,20 @@ namespace Csharp_Shop
             codice = numeroRandomCodice();
             return codice;
         }
+
+        public string GetDescrizione()
+        { return descrizione; }
+
+        public double GetIva() 
+        { 
+            return iva;
+        }
      
 
         public int numeroRandomCodice()
         {
             Random codiceRandom = new Random();
-            return (int)codiceRandom.Next(1000000000);
+            return (int)codiceRandom.Next(100000000);
         }
         public void stampa()
         {
