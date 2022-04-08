@@ -40,7 +40,7 @@ namespace Csharp_Shop
         public int numeroRandomCodice()
         {
             Random codiceRandom = new Random();
-            return (int)codiceRandom.Next(50);
+            return (int)codiceRandom.Next(1000000000);
         }
         public void stampa()
         {
