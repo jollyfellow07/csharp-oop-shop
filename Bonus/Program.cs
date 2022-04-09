@@ -10,6 +10,11 @@ Prodotto telefono = new Prodotto("iphone", "Apple iPhone 13 è l’ultima uscita
 int iphoneCodice = telefono.GetCodice();
 telefono.stampa();
 
-Prodotto medicina = new Prodotto("tachipirina", "questa mela è rossa", 10.20, 10);
+Prodotto medicina = new Prodotto("tachipirina", "serve per la febbre", 10.20, 10);
 int medicinaCodice = medicina.GetCodice();
 medicina.stampa();
+
+Prodotto sedia = new Prodotto("Sedia", "di legno", 50, 22);
+    int sediaCodice = sedia.GetCodice();
+    sedia.stampa();
+    

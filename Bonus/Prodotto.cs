@@ -51,7 +51,7 @@
             Console.WriteLine("il prezzo senza iva è: " + prezzo + "€");
             Console.WriteLine("L'iva del prodotto è: " + iva + "%");
             Console.WriteLine("Il prezzo del prodotto con iva è: " + CalcoloPrezzoConIva() + "€");
-            Console.WriteLine("\n**************************************");
+            Console.WriteLine("**************************************");
         }
 
         /*METODO: PER CALCOLARE IL PREZZO CALCOLATO CON IVA*/

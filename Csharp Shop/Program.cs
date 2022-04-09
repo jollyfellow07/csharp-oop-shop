@@ -13,10 +13,11 @@ telefono.articolo();
 telefono.stampa();
 
 
-Prodotto medicina = new Prodotto("tachipirina", "questa mela è rossa", 10.20, 10);
+Prodotto medicina = new Prodotto("tachipirina", "questa medicina serve per la febbre", 10.20, 10);
 int medicinaCodice = medicina.GetCodice();
 medicina.articolo();
 medicina.stampa();
+
 
 
 Console.ReadLine();
