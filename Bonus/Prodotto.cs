@@ -15,13 +15,14 @@
             this.descrizione = descrizione;
             this.prezzo = prezzo;
             this.iva = iva;
+            Random codiceRandom = new Random();
+            codice = codiceRandom.Next(100000000);
 
         }
 
-        /* METODO: ASSEGNO AL CODICE IL NUMERO RANDOM*/
+        /* METODO: ASSEGNO AL CODICE*/
         public int GetCodice()
         { 
-            codice = numeroRandomCodice();
             return codice;
         }
 
@@ -31,13 +32,6 @@
             
             string strvalue = Convert.ToString(codice).PadLeft(8,'0');
             return strvalue;
-        }
-
-            /*METODO: CALCOLA NUMERO RANDOM*/
-            public int numeroRandomCodice()
-        {
-            Random codiceRandom = new Random();
-            return codiceRandom.Next(100000000);
         }
 
         /*STAMPA TUTTE LE CARATTERISTICHE DEL MIO PRODOTTO*/
